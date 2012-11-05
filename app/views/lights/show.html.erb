@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @light.name %>
+</p>
+
+<p>
+  <b>Guid:</b>
+  <%= @light.guid %>
+</p>
+
+
+<%= link_to 'Edit', edit_light_path(@light) %> |
+<%= link_to 'Back', lights_path %>
